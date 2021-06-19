@@ -2,10 +2,15 @@ import logo from './logo.svg';
 import './App.css';
 import './index.css';
 import Navbar from './Components/Navbar';
+import GpaCal from './Components/GpaCal';
 
 function App() {
   return (
-    <Navbar/>
+    <div className="Color h-screen">
+      <Navbar/>
+      <GpaCal/>
+
+    </div>
   );
 }
 

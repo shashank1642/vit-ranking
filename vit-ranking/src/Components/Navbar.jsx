@@ -5,7 +5,7 @@ function Navbar() {
     return(
         <div className="Color">
       <div className="mx-8 text-2xl">
-        <a href="" className="text-green-900">Logo</a>
+        <a href="" className="text-green-900">Logo and sesign</a>
 
       </div>
       

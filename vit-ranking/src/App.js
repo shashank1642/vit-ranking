@@ -4,23 +4,13 @@ import './index.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <div className="bg-red-700">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        </div>
-      </header>
+    <div className="bg-red-400 h-32 ">
+
+      <div className="bg-gray-500">
+        Navbar
+      </div>
+
+      
     </div>
   );
 }

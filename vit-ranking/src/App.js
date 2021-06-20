@@ -8,7 +8,7 @@ import Footer from './Components/Footer';
 function App() {
   return (
     <>
-      <div className="Color h-screen pt-3">
+      <div className="Color h-screen">
         <Navbar/>
         <LandingPage/>
         </div>

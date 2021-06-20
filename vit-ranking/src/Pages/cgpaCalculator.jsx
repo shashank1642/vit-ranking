@@ -4,8 +4,8 @@ import React from "react";
 
 function cgpaCalculator() {
   return (
-    <div className="Color h-screen pt-3">
-        
+    <div className="Color h-auto text-center pt-3">
+        <p>cgpa</p>
     </div>
   );
 }

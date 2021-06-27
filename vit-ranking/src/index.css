@@ -31,4 +31,8 @@ code {
 .Poppins{
   font-family: 'Poppins', sans-serif;
 }
-
+/* <NumericInput style={{
+  input: {
+      color: 'red'
+  }
+}}> */

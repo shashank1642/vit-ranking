@@ -1,5 +1,5 @@
 import React from "react";
-import Faq from "../Components/Faq";
+// import Faq from "../Components/Faq";
 import Man from "../images/man-on-book.svg";
 
 function LandingPage() {
@@ -17,8 +17,8 @@ function LandingPage() {
         
       </div>
     </section>
-    <section className="mt-24">
-      <Faq/>
+    <section className="mb-96">
+      {/* <Faq/> */}
     </section>
     </>
   );

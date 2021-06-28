@@ -4,6 +4,13 @@
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.1.2",
+    "@progress/kendo-drawing": "^1.10.1",
+    "@progress/kendo-licensing": "^1.1.4",
+    "@progress/kendo-react-animation": "^4.7.0",
+    "@progress/kendo-react-dropdowns": "^4.7.0",
+    "@progress/kendo-react-form": "^4.7.0",
+    "@progress/kendo-react-inputs": "^4.7.0",
+    "@progress/kendo-react-intl": "^4.7.0",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
@@ -37,8 +44,12 @@
     ]
   },
   "devDependencies": {
+    "@progress/kendo-react-treeview": "^4.7.0",
     "autoprefixer": "^9.8.6",
+    "ka-table": "^6.9.0",
     "postcss": "^7.0.36",
+    "react-numeric-input": "^2.2.3",
+    "react-router-dom": "^5.2.0",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.2"
   }
 }

@@ -10,15 +10,17 @@ function App() {
   return (
     <>
     <Router>
-      <div className="Color  px-10">
+      <div className="Color px-10">
         <Navbar />  
       </div>
-      <div className="Color h-screen pt-10">
+
+      <div className="Color px-10">
       <Switch>
         <Route path="/" exact component={LandingPage}></Route>
         <Route path="/cgpaCal" component={cgpaCalculator}></Route>
       </Switch>
       </div>
+      
       <div className="Color h-2/6">
         <Footer />
       </div>

@@ -21,13 +21,13 @@ function Navbar() {
         <div id="navbox" className="col-span-1 invisible lg:visible ">
           <div className=" absolute top-6 right-16 ">
             <Link to="/gpaCal" className="px-4 Poppins text-2xl">
-              GPA Calculator
+              Gpa Calculator
             </Link>
             <Link to="/cgpaCal" className="px-4 Poppins text-2xl">
-              CGPA Calculator
+              Cgpa Calculator
             </Link>
             <Link to="/gpaEst" className="px-4 Poppins text-2xl">
-              GPA Estimation
+              Cgpa Estimation
             </Link>
             <Link to="/Rank" className="px-4 Poppins text-2xl">
               Rank

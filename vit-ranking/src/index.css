@@ -31,11 +31,8 @@ code {
 .Poppins{
   font-family: 'Poppins', sans-serif;
 }
-
-.imgsize{
-  height: 600;
-  width:600;
-  float:right;
-}
-
-
+/* <NumericInput style={{
+  input: {
+      color: 'red'
+  }
+}}> */

@@ -10,7 +10,7 @@ function TrCgpa(props){
               <th class="  rounded-full py-3 px-6...">
               <input style={{color: "black"}} type="number" defaultValue="0" step="0.01" ref={props.gpa} />
               </th>
-      </tr>
+      </tr> 
   );
 }
 

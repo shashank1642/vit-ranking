@@ -17,9 +17,10 @@ function LandingPage() {
         
       </div>
     </section>
-    <section className="mb-96">
+    {/* <section className="mb-96"> */}
       {/* <Faq/> */}
-    </section>
+    {/* </section> */}
+    
     </>
   );
 }

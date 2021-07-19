@@ -36,6 +36,8 @@ class CgpaCalculator extends React.Component{
     this.handleSubmit = this.handleSubmit.bind(this)
   }
 
+  
+
   handleSubmit = (e) =>{
     var sem1 = parseInt(this.val1.current.value)*parseFloat(this.gpa1.current.value)
     var sem2 = parseInt(this.val2.current.value)*parseFloat(this.gpa2.current.value)

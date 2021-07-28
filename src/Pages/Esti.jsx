@@ -15,29 +15,23 @@ function TrCgpa(props){
 class CgpaCalculator extends React.Component{
   constructor(props){
     super(props);
-    
+
     this.gpa1 = React.createRef();
-    
     this.gpa2 = React.createRef();
-    
     this.gpa3 = React.createRef();
-    
     this.gpa4 = React.createRef();
     
     this.handleSubmit = this.handleSubmit.bind(this)
   }
 
   handleSubmit = (e) =>{
-    var que1 = parseFloat(this.gpa1.current.value)
-    var que2 = parseFloat(this.gpa2.current.value)
-    var que3 = parseInt(this.gpa3.current.value)
-    var que4 = parseInt(this.gpa4.current.value)
-    
-    var total = (parseInt(this.gpa3.current.value)+parseInt(this.gpa4.current.value))
-    var curr=(parseFloat(this.gpa1.current.value)*parseInt(this.gpa4.current.value))
-    var past=(parseFloat(this.gpa2.current.value)*parseInt(this.gpa3.current.value))
-
-    var result = (((que1)*(total))-(past))/(que4);
+    var goal = parseFloat(this.gpa1.current.value)
+    var curr_cgpa = parseFloat(this.gpa2.current.value)
+    var completed_creds = parseInt(this.gpa3.current.value)
+    var taken_creds = parseInt(this.gpa4.current.value)
+    var total = (completed_creds + taken_creds )
+    var past=(curr_cgpa*completed_creds)
+    var result = (((goal)*(total))-(past))/(taken_creds);
 
     alert('compute clicked. '+result.toFixed(2));
     e.preventDefault();
@@ -60,8 +54,7 @@ class CgpaCalculator extends React.Component{
             <TrCgpa question='Current CGPA'  gpa={this.gpa2}  />
             <TrCgpa question='Total no of Credits Completed' gpa={this.gpa3}  />
             <TrCgpa question='No of Credits taken now'  gpa={this.gpa4}  />
-            
-            
+                        
             <tr>
               <th></th>
               <th>
